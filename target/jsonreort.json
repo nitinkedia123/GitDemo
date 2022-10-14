@@ -1,0 +1,414 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Homepage default login",
+        "description": "",
+        "id": "application-login;homepage-default-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "User is on Netbanking landing page",
+            "match": {
+              "location": "stepDefinition.user_is_on_Netbanking_Landing()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User login into application using username \"john\" and password \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "john",
+                  "offset": 44
+                },
+                {
+                  "val": "1234",
+                  "offset": 64
+                }
+              ],
+              "location": "stepDefinition.User_login__application(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefinition.Home_page_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Cards are displayed",
+            "match": {
+              "location": "stepDefinition.Cards_are_displayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Homepage default login",
+        "description": "",
+        "id": "application-login;homepage-default-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User is on Netbanking landing page",
+            "match": {
+              "location": "stepDefinition.user_is_on_Netbanking_Landing()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User signup with following details",
+            "match": {
+              "location": "stepDefinition.User_signup(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "nitin",
+                  "password",
+                  "email@gmail.com",
+                  "India",
+                  "12345"
+                ],
+                "line": 13
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefinition.Home_page_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Cards are displayed",
+            "match": {
+              "location": "stepDefinition.Cards_are_displayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Homepage default login",
+        "description": "",
+        "id": "application-login;homepage-default-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "User is on Netbanking landing page",
+            "match": {
+              "location": "stepDefinition.user_is_on_Netbanking_Landing()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User login in to application using username username1 and password password1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 52
+                },
+                {
+                  "val": "1",
+                  "offset": 75
+                }
+              ],
+              "location": "stepDefinition.User_login_in_to_application(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefinition.Home_page_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "Cards are displayed",
+            "match": {
+              "location": "stepDefinition.Cards_are_displayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Homepage default login",
+        "description": "",
+        "id": "application-login;homepage-default-login;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "User is on Netbanking landing page",
+            "match": {
+              "location": "stepDefinition.user_is_on_Netbanking_Landing()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User login in to application using username username2 and password password2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 52
+                },
+                {
+                  "val": "2",
+                  "offset": 75
+                }
+              ],
+              "location": "stepDefinition.User_login_in_to_application(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefinition.Home_page_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "Cards are displayed",
+            "match": {
+              "location": "stepDefinition.Cards_are_displayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Homepage default login",
+        "description": "",
+        "id": "application-login;homepage-default-login;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "User is on Netbanking landing page",
+            "match": {
+              "location": "stepDefinition.user_is_on_Netbanking_Landing()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User login in to application using username username3 and password password3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 52
+                },
+                {
+                  "val": "3",
+                  "offset": 75
+                }
+              ],
+              "location": "stepDefinition.User_login_in_to_application(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefinition.Home_page_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "Cards are displayed",
+            "match": {
+              "location": "stepDefinition.Cards_are_displayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Homepage default login",
+        "description": "",
+        "id": "application-login;homepage-default-login;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "User is on Netbanking landing page",
+            "match": {
+              "location": "stepDefinition.user_is_on_Netbanking_Landing()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User login in to application using username username4 and password password4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 52
+                },
+                {
+                  "val": "4",
+                  "offset": 75
+                }
+              ],
+              "location": "stepDefinition.User_login_in_to_application(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefinition.Home_page_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "Cards are displayed",
+            "match": {
+              "location": "stepDefinition.Cards_are_displayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Application Login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="0">
+<testcase classname="Application Login" name="Homepage default login" time="0">
+<system-out><![CDATA[Given User is on Netbanking landing page....................................skipped
+When User login into application using username "john" and password "1234"..skipped
+Then Home page is populated.................................................skipped
+And Cards are displayed.....................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="Homepage default login" time="0">
+<system-out><![CDATA[Given User is on Netbanking landing page....................................skipped
+When User signup with following details.....................................skipped
+Then Home page is populated.................................................skipped
+And Cards are displayed.....................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="Homepage default login" time="0">
+<system-out><![CDATA[Given User is on Netbanking landing page....................................skipped
+When User login in to application using username username1 and password password1.skipped
+Then Home page is populated.................................................skipped
+And Cards are displayed.....................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="Homepage default login 2" time="0">
+<system-out><![CDATA[Given User is on Netbanking landing page....................................skipped
+When User login in to application using username username2 and password password2.skipped
+Then Home page is populated.................................................skipped
+And Cards are displayed.....................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="Homepage default login 3" time="0">
+<system-out><![CDATA[Given User is on Netbanking landing page....................................skipped
+When User login in to application using username username3 and password password3.skipped
+Then Home page is populated.................................................skipped
+And Cards are displayed.....................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="Homepage default login 4" time="0">
+<system-out><![CDATA[Given User is on Netbanking landing page....................................skipped
+When User login in to application using username username4 and password password4.skipped
+Then Home page is populated.................................................skipped
+And Cards are displayed.....................................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
